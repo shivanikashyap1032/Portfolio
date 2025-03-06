@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=wh, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="styles.css"> 
+
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+     <nav>
+        <div class="left">
+            <a href="/">Shivani Kashyap</a>
+
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/shivanikashyap1032" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/shivani-kashyap-ab09691a3" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+            
+            <a href="mailto:shivanikashyap1032@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+        </div>
+     </nav>
+
+
+     <main>
+        <!-- SECTION 1: Hero -->
+         <section class="hero-section"> 
+            <div class="text">
+                <h2>Hi , I'm Shivani</h2>
+                <h2>DevOps Engineer</h2>
+                <p>Motivated and eager to grow, open to new challenges. Always curious and excited to learn new things. 
+                    Looking forward to opportunities that help me improve and contribute. Passionate about building a strong foundation 
+                    for my career.</p>
+                
+<!---------------------------------------------------------------------------------------------------------------------------------------------->
+                <div class="links">
+
+                    <a href="#about">
+                        <i class="fa-solid fa-image-portrait"></i>
+                        <span>About</span>
+                    </a>
+
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Technical Skills</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-address-card"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <!------------------------------------*************************------------------------------------------------->
+
+  <!--------------------------------------------------------------------------------------------------------->         
+            <div class="headshot">
+                <img src="images/image.jpg"  alt="shivani kashyap headshort">
+            </div>
+   <!----------------------------------------------------------------------------------------------------->           
+         </section>
+
+           <!-- SECTION 2: About-->
+        <section id="about" class="about-section"> 
+            <h2>About</h2>
+
+            <div class="group">
+            <div class="person-details">
+                <img src="images/about.jpg" width="240px">
+            </div>
+
+             <div class="text">
+                " I am a passionate and motivated DevOps Engineer with a strong foundation in cloud technologies and automation. 
+                I have hands-on experience with tools like Docker and Kubernetes for containerization and orchestration, Jenkins for CI/CD pipelines, and Terraform for Infrastructure as Code (IaC). 
+                Additionally, I have a good understanding of AWS services for cloud computing and deployment. 
+                I'm eager to leverage my skills to streamline development and operations processes, enhance automation, and contribute to efficient and scalable infrastructure solutions. 
+                Looking forward to growing in the DevOps field and tackling real-world challenges!"                             
+             </div>
+            </div>
+         </section>
+
+          <!-- SECTION 3: SKILLS -->
+          <section id="skills" class="skills-section"> 
+          <h2>Technical Skills</h2>
+          <div class="text">
+                                        
+                <div class="cells">
+
+                    <div class="cell">
+                        <img src="images/docker.png" width="140px" height="110px" alt="docker logo">
+                        <span>DOCKER</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="images/kubernet.png" width="140px" height="110px" alt="kubernet logo">
+                        <span>KUBERNETE</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="images/jenkins.png" width="140px" height="110px" alt="jenkins logo">
+                        <span>JENKINS</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="images/terraform.png" width="140px" height="110px" alt="terraform logo">
+                        <span>TERRAFORM</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="images/aws.png" width="140px" height="110px" alt="aws logo">
+                        <span>AWS</span>
+                    </div>
+
+                </div>
+            
+          </div>
+        </section>
+
+
+          <!-- SECTION 4: Contact -->
+          <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            
+            <div class="group">
+                <div class="text">
+                    "Let's connect! I'm open to learning, collaborating, and exploring new opportunities in DevOps. 
+                    Feel free to reach out, and I'll get back to you soon!"
+                </div>
+                  
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+          </section>
+     </main>
+</body>
+</html>
